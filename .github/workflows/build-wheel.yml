@@ -1,4 +1,4 @@
-name:  build python wheel 
+name: build python wheel
 
 on: [push]
 
@@ -22,5 +22,3 @@ jobs:
         with:
           name: dist
           path: dist/*.whl
-          path: dist/*.tar.gz
-
