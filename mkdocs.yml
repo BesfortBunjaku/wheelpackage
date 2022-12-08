@@ -1,1 +1,31 @@
-site_name: My Docs
+site_name: Project Name
+nav:
+    - MkDocs: mkdocs.md
+    - Setup: setup.md
+    - CI/CD: cicd.md
+    - Docs: index.md
+
+plugins:
+    - search
+    - mermaid2
+
+markdown_extensions:
+  - admonition
+
+theme:
+    name: mkdocs
+    locale: de
+    nav_style: primary # light, dark, primary, secondary
+    hljs_style: androidstudio
+  
+ 
+    
+ 
+
+
+
+
+
+ 
+      
+         
